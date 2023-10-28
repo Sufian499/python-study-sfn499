@@ -38,7 +38,7 @@ def hangman():
         # Si ya hemos puesto la letra.
         elif user_letra in letras_usadas:
             print(f"Ya has usado la letra {user_letra}")
-        # Mostramos las letras que hemos usado. La función ''.join muestra cada valor del set o lista.
+        # Mostramos las letras que hemos usado. La función ''.join une los valores de una lista en una string.
         print("You have used these letters: ", ' '.join(letras_usadas))
         print()
     if lives > 0:
